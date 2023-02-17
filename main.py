@@ -9,5 +9,6 @@ Name = input("Введите ваше имя: ")
 
 #name = 'Aleks'
 print (Name.capitalize())
+print ("Alex")
 
 
