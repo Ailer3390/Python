@@ -38,5 +38,29 @@
 # is
 # comment
 
-print('Aleks')  # Код с комментрарием
-print(10)       # Comment
+# print('Aleks')  # Код с комментрарием
+# print(10)       # Comment0
+
+# print(input('Enter your name: '))
+
+# print(return)
+
+
+# def my_fn():
+#     return
+
+
+# print(my_fn)
+
+# my_number = 10
+
+# my_string = 'abc'
+
+# my_logics = True
+
+# my_list = [1, 2, 3]
+
+# my_dictionary = {'min': 5, 'max': 200}
+
+# print(my_number, my_string, my_logics,
+#       my_list, my_dictionary)
