@@ -39,3 +39,4 @@
 # comment
 
 print('Aleks')  # Код с комментрарием
+print(10)       # Comment
