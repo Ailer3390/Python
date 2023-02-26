@@ -64,3 +64,46 @@
 
 # print(my_number, my_string, my_logics,
 #       my_list, my_dictionary)
+
+# print(id(my_number))
+
+# my_name = 'Aleks'
+
+# print(id(my_name))
+
+# my_num = 101
+
+# print(id(my_num))
+
+# other_num = my_num
+
+# print(id(other_num))
+
+# long_str = """This
+# is a very
+# long str"""
+
+# print(long_str[3:6])
+
+# print(type(long_str))
+# print(id(long_str))
+
+# my_name = 'Aleksandr'
+
+# print(len(my_name))
+
+# my_comment = "This is my short comment"
+
+# print(my_comment[:10])
+
+# any_num = float(input("Enter any number: "))
+
+# cart = [15, 42, 120, 9, 5, 380]
+
+# discount = int(input())
+# total = 0
+
+# for c in cart:
+#     total = total + (c - c / 100 * discount)
+
+# print(total)
