@@ -134,5 +134,5 @@
 # x = sum(range(1, n + 1))
 # print(x)
 
-# x = 'абракадабра'
+# x = 'helloworld'
 # print(x[::-1])
