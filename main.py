@@ -136,4 +136,26 @@
 
 # x = 'helloworld'
 # print(x[::-1])
-ff
+
+
+# list_x = [True, 'hi', '❤️️', 10.5]
+# del list_x[1]
+# print(list_x[1])
+# print(len(list_x))
+
+# СПИСОК СЛОВАРЕЙ (ИСПОЛЬЗУЕТСЯ ЧАСТО)!!!
+
+users = [
+    {
+        'user_id': 134,
+        'user_name': 'Alice'
+    },
+    {
+        'user_id': 831,
+        'user_name': 'Bob'
+    }
+]
+
+print(len(users))  # 2
+
+print(users[1]['user_name'])  # 831
