@@ -107,3 +107,32 @@
 #     total = total + (c - c / 100 * discount)
 
 # print(total)
+
+# complex_a = 10 + 7j
+# complex_b = 3 + 3j
+
+# # (10 +7j)(3 + 3j) = 30 + 30j + 21j - 21 = (9+51j)
+# print(complex_a * complex_b)
+
+# float_x = 50.0
+# str_y = 'abc'
+
+# print(str_y * int_x)
+# print(float_x.__mul__(str_y))
+
+# print(str_y.__rmul__(float_x))
+
+# n = int(input())
+# summa = 0
+
+# for i in range(1, n + 1):
+#     summa += i
+
+# print(summa)
+
+# n = int(input())
+# x = sum(range(1, n + 1))
+# print(x)
+
+x = 'абракадабра'
+print(x[::-1])
