@@ -1,21 +1,43 @@
+# Словарь с исползованием переменных
+brand = 'Ducati'
+bike_price = 25000
+engine_volume = 1.2
 
-# КОПИРОВАНИЕ СПИСКОВ
+my_motorbike = {
+    'brand': brand,
+    'price': bike_price,
+    'engine_vol': engine_volume
+}
+print(my_motorbike)
+# Словарь (Обычный)
+# my_motorbike = {
+#     'brand': 'Ducati',
+#     'price': '25000',
+#     'engine_vol': 1.2
+# }
 
-my_cars = ['BMW, Mercedes']
+# Метод .get если не уверен в налии ключа в словаре( если нет - вернет значение после запятой)
+print(my_motorbike.get('model', 123))
 
-# copied_cars = my_cars         # копирование списка (с добавление новых данных в оба списка)
+# Если уверен
+print(my_motorbike['brand'])
+print(my_motorbike.get('brand'))
 
-# copied_cars = my_cars[:]      # КОПИРОВАНИЕ В НОВЫЙ СПИСОК №1 (используя slice)
+# Удаление из словаря
+del my_motorbike['price']
 
-# copied_cars = my_cars.copy()  # КОПИРОВАНИЕ ЧЕРЕЗ МЕТОД СПИСКОВ №2 (.copy)
+# Длинна словаря
+print(len(my_motorbike))
 
-# copied_cars = list(my_cars)   # КОПИРОВАНИЕ ЧЕРЕЗ СОЗДАНИЕ НОВОГО СПИСКА №3 (функция list)
+# Замена элемента
+my_motorbike['engine_vol'] = 1.8
+print(my_motorbike['engine_vol'])
 
+# Доступ к значению элемента с помощью переменной
+key_name = 'brand'
+my_motorbike[key_name] = 'BMW'
+print(my_motorbike['brand'])
 
-copied_cars.append('Audi')
-
-print(copied_cars)
-
-print(my_cars)
-
-print(id(my_cars) == id(copied_cars))
+# Добавление элементов
+my_motorbike['is_new'] = True
+print(my_motorbike['is_new'])
